@@ -2,10 +2,12 @@ import Head from "next/head";
 import Link from "next/link";
 import Layout from "../components/Layout";
 
-export default function Home() {
+const Nosotros = () => {
   return (
-    <Layout pagina="Inicio">
-      <h1>Desde Inicio</h1>
+    <Layout pagina="Nosotros">
+      <h1>Desde Nosotros</h1>
     </Layout>
   );
-}
+};
+
+export default Nosotros;
