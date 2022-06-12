@@ -3,8 +3,8 @@ import styles from '../styles/Footer.module.css'
 
 const Footer = () => {
     return (
-        <footer>
-            <div className="contenedor">
+        <footer className={styles.footer}>
+            <div className={`contenedor ${styles.contenido}`}>
                 <nav className={styles.navegacion}>
                     <Link href="/">Inicio</Link>
                     <Link href="/nosotros">Nosotros</Link>
